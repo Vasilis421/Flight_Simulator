@@ -16,6 +16,9 @@ Matlab version R2018a is required. The Aerospace Blockset Simulink library is ne
 7. In case of landing use the Brake Slider in order to apply brakes.
 8. At the end or during the simulation you can see the aircraft state variables values in graphs inside the Plots block.
 
+## Supporting Document
+This flight simulator was developed for the purposes of my Mechanical Engineering Master thesis. My thesis is provided in this repository in case of the user looking for a deeper understanding of the model and its theoretical background. The model constitutes the first part of the thesis.
+
 ![Recommended Usage](./assets/Usage.png)
 ## License
 This project is licensed under the terms of the MIT license.
