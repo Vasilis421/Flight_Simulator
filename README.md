@@ -1,4 +1,4 @@
-# Flight_Simulator
+# Flight Simulator
 A dynamic flight simulation model for a Blended Wing Body (BWB) Unmanned Aerial Vehicle (UAV), including take-off, cruise, payload drop and landing, using Matlab and Simulink software. The model’s purpose is to get a better understanding on the aircraft’s behavior during the different phases of its mission. The simulator operates by solving the airplane’s equations of motion. The aerodynamic forces and moments acting on the aircraft are determined using polynomial modeling, where each force and moment coefficient is expressed as a polynomial function, extracted from CFD simulations. The simulator also calculates forces and moments produced by the engine and the landing gear. Moreover, the model is able to take into account the effect of wind, in case of hazardous weather conditions. In each loop, the simulator takes throttle and control surfaces’ deflections as inputs, calculates the aircraft's state, and finally outputs the results to Flightgear, an open source flight simulator software, for real-time visualization of the aircraft’s mission.
 
 ![Simulink Model](./assets/Simulink_Model.png)
